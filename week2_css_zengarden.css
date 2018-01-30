@@ -1,0 +1,109 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html{
+    margin: 0;
+    padding: 0;
+    }
+body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    }
+p { 
+    font-family: 'Oswald', sans-serif;   
+    font-size: 20px; 
+    margin-top: 0; 
+    }
+h1 {
+    background-color: #5003;
+    font-size: 80px;
+    text-align: center;
+    margin: left;
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 10%;
+    width: 80%;
+    text-align: center;
+    color: black;
+    }
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: #2e2e2e47;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+    }
+h3 { 
+    font: bold normal 1.4em Oswald, sans-serif;
+    letter-spacing: 1px; 
+    margin-bottom: 0; 
+    color: black;
+    }
+a:link { 
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #ffb7b7;
+    }
+a:visited { 
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #ffb7b7;
+    }
+a:hover, a:focus, a:active { 
+    text-decoration: underline; 
+    color: #ffb7b7;
+    }
+abbr {
+    border-bottom: none;
+    }
+
+/*specific divs*/
+
+#zen-summary {
+    text-align: right;
+    margin-left: 20%;
+    /* margin-right: 10%; */
+    background-color: black;
+    color: white;
+    padding: 34px;
+    margin-top: -34px;
+    }
+#zen-preamble {
+    text-align: left;
+    background-color: #8080801a;
+    margin-top: -20px;
+    margin-right: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+#zen-explanation {
+    background-color: #d45c711c;
+    text-align: right;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    }
